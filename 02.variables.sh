@@ -1,1 +1,3 @@
-This is again sample script
+#!/bin/bash
+
+echo "This is again sample script";
