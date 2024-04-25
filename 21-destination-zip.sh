@@ -4,8 +4,7 @@ source_folder=$1
 destination_folder=$2
 current_date=$(date + "%Y-%m-%d")
 
-if[ ! -d "$source_folder" ];
-then
+if[ ! -d "$source_folder" ];then
     echo -e "$source_folder does not exist"
     exit 1
 fi
